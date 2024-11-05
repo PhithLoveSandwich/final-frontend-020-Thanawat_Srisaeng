@@ -411,7 +411,7 @@ h3 {
   align-items: center;
   flex-direction: column;
   width: 30%;
-  height: 250px;
+  height: 350px;
   background: var(--color-white);
   border-radius: 20px;
   box-shadow: 1px 8px 10px 2px var(--first-shadow-color);
@@ -427,6 +427,11 @@ h3 {
 .projects-box label {
   font-size: 15px;
   color: #777;
+}
+.projects-image img{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 .projects-box::after,
 /* ----- PROJECTS BOX ----- */
@@ -754,4 +759,5 @@ footer {
   font-weight: bold;
   margin-top: 10px;
 }
+
 

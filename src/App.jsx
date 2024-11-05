@@ -3,8 +3,8 @@ import Header from "./component/Header";
 import FeaturedBox from "./component/FeaturedBox";
 import Section from "./component/Section";
 import AboutBox from "./component/AboutBox";
-import ProjectsBox from "./component/ProjectsBox";
-import ContactBox from "./component/ContactBox";
+import ProjectsBox from "./component/Product";
+import ContactBox from "./component/Review";
 import Footer from "./component/Footer";
 import "./App.css";
 import Typed from "typed.js";
@@ -46,6 +46,7 @@ function App() {
     sr.reveal(".social_icons", { delay: 200, interval: 100 });
     sr.reveal(".featured-image", { delay: 200 });
     sr.reveal(".project-box", { delay: 200 });
+    sr.reveal(".projects-box", { delay: 200 });
 
     sr.reveal(".top-header", { delay: 200 });
   
