@@ -3,39 +3,74 @@ import avatar from "../assets/images/bar_soap.png";
 import avatar2 from "../assets/images/liquid_soap.png";
 import avatar3 from "../assets/images/hand_wash.png";
 import avatar4 from "../assets/images/cleansing.png";
-const ProjectsBox = () =>(
-    <section className="section" id="project">
-        <div className="top-header">
-            <h1>Popular</h1>
+
+const ProductsBox = () => (
+  <section className="section" id="project">
+    <div className="top-header">
+      <h1>Popular Products</h1>
+    </div>
+    <div className="products-container">
+      {/* Product 1 */}
+      <div className="product-card">
+        <div className="product-image">
+          <img src={avatar} alt="Bar Soap" />
         </div>
-        <div className="projects-container">
-            <div className="project-box">
-            <div className="featureds-image">
-            <div className="images">
-            <img src={avatar} alt="avatar" />
-            </div>
-            </div>
-            <i className="uil uil-suitcase-alt"></i>
-            <h3>completed</h3>
-            <label>0 Finished Projects</label>
-            </div>
-            <div className="project-box">
-            <i className="uil uil-constructor"></i>
-            <h3>Clients</h3>
-            <label>2 Happy Clients</label>
-            </div>
-            <div className="project-box">
-            <i className="uil uil-folder-network"></i>
-            <h3>Experience</h3>
-            <label>1 Years in the field</label>
-            </div>
-            <div className="project-box">
-            <i className="uil uil-folder-network"></i>
-            <h3>Experience</h3>
-            <label>1 Years in the field</label>
-            </div>
+        <h3>สบู่ก้อน</h3>
+        <p>สบู่ก้อนธรรมดาที่มีหลานกลิ่นและหลายสูตร.</p>
+        <p className="price">45 บาท</p>
+        <div className="featured-text-btn">
+          <button className="btns">
+            <i className="uil uil-shopping-cart-alt"></i> สังซือสินค้าเลย
+          </button>
         </div>
-    </section>
+      </div>
+
+      {/* Product 2 */}
+      <div className="product-card">
+        <div className="product-image">
+          <img src={avatar2} alt="Liquid Soap" />
+        </div>
+        <h3>สบู่เหลว</h3>
+        <p>สบู่เหลวที่มีหลายกลิ่นและและหลายสูตรเช่นกัน.</p>
+        <p className="price">$45 บาท</p>
+        <div className="featured-text-btn">
+          <button className="btns">
+            <i className="uil uil-shopping-cart-alt"></i> สังซือสินค้าเลย
+          </button>
+        </div>
+      </div>
+
+      {/* Product 3 */}
+      <div className="product-card">
+        <div className="product-image">
+          <img src={avatar3} alt="Hand Wash" />
+        </div>
+        <h3>เจลล้างมือ</h3>
+        <p>เจลล้างมือ จากแอลกอฮอล</p>
+        <p className="price">35 บาท</p>
+        <div className="featured-text-btn">
+          <button className="btns">
+            <i className="uil uil-shopping-cart-alt"></i> สังซือสินค้าเลย
+          </button>
+        </div>
+      </div>
+
+      {/* Product 4 */}
+      <div className="product-card">
+        <div className="product-image">
+          <img src={avatar4} alt="Cleansing Foam" />
+        </div>
+        <h3>คลินซิ่ง</h3>
+        <p>ทำความสะอาดหน้าและการล้างเครื่องสำอาง</p>
+        <p className="price">65 บาท</p>
+        <div className="featured-text-btn">
+          <button className="btns">
+            <i className="uil uil-shopping-cart-alt"></i> สังซือสินค้าเลย
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
 );
 
-export default ProjectsBox;
+export default ProductsBox;

@@ -71,6 +71,7 @@ function App() {
     srLeft.reveal(".about-info", { delay: 200 });
 
     srLeft.reveal(".contact-info", { delay: 200 });
+    srLeft.reveal(".product-card",{delay: 200});
     
     
 

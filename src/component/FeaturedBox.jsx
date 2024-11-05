@@ -1,5 +1,5 @@
 import React from "react";
-import avatar from "../assets/images/soap.png";
+import avatar from "../assets/images/random.png";
 
 const FeaturedBox = () => {
   return (
@@ -18,12 +18,14 @@ const FeaturedBox = () => {
         </div>
 
         <div className="featured-text-btn">
-          <button href="#about" className="btn">
+        <button className="btn">
+          <a href="#project" className="btn">
             <i className="uil uil-shopping-cart-alt"></i> Shop Now
-          </button>
-          <button href="#about" className="btn">
+          </a></button>
+          <button className="btn">
+          <a href="#about" className="btn">
             <i className="uil uil-angle-double-down"></i> Know More
-          </button>
+          </a></button>
         </div>
 
 
